@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	color: grey;
+}
+ul {
+	text-decoration-style: none;
+}
+h1 {
+	text-align: center;
+	color: red;
+	font-size: 24px;
+}
+input {
+	width: 496px;
+	height: 30px;
+	line-height: 30px;
+	border: 1px solid rgba(0, 0, 0, .25);
+	display: block;
+	margin: 0 auto;
+	padding-left: 4px;
+}
+li {
+	width: 500px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px solid rgba(0, 0, 0, .25);
+	border-left: 1px solid rgba(0, 0, 0, .25);
+	border-right: 1px solid rgba(0, 0, 0, .25);
+	display: block;
+	margin: 0 auto;
+}
+.index {
+	font-size: 12px;
+	padding-left: 4px;
+	padding-right: 2px;
+}
+.view {
+	position: relative;
+}
+.delete {
+	width: 13px;
+	height: 13px;
+	font-size: 12px;
+	line-height: 13px;
+	border-radius: 13px;
+	border: 1px solid red;
+	color: white;
+	background-color: red;
+	position: absolute;
+	right: 4px;
+	top: 7px;
+	opacity: .7;
+	display: none;
+}
+.delete:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+li:hover {
+	color: black;
+}
+li:hover .delete {
+	display: inline-block;
+}
+.new_todo:hover {
+	color: black;
+}
+.end {
+	width: 492px;
+	height: 20px;
+	line-height: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .25);
+	border-left: 1px solid rgba(0, 0, 0, .25);
+	border-right: 1px solid rgba(0, 0, 0, .25);
+	display: block;
+	padding: 0 4px;
+	margin: 0 auto;
+	position: relative;
+}
+.statistic, .deleteAll {
+	font-size: 12px;
+}
+.deleteAll {
+	position: absolute;
+	right: 4px;
+}
+.deleteAll:hover {
+	color: red;
+	opacity: .7;
+	cursor: pointer;
+}
+.deleteAll:active {
+	opacity: 1;
+}
